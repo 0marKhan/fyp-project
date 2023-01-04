@@ -1,0 +1,39 @@
+.header img {
+  height: 80px;
+}
+
+.header {
+  background-color: #020008;
+  position: sticky;
+  top: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header * {
+  display: inline;
+}
+
+.header li {
+  margin: 20px;
+}
+
+li .link-class {
+  color: white;
+  text-decoration: none;
+  font-family: Roboto Slab;
+}
+
+li .link-class:hover {
+  color: #5fdce1;
+}
+
+@media (max-width: 1000px) {
+  li .link-class {
+    display: none;
+  }
+}

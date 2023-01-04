@@ -1,0 +1,58 @@
+h1.manufacturer-heading {
+  text-align: center;
+  color: white;
+  font-family: Roboto Slab;
+  padding-top: 50px;
+}
+
+.form {
+  background-color: #020008;
+  border-radius: 5px;
+  width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > * {
+  padding: 5px;
+}
+
+.form__label {
+  width: 40%;
+  font-family: Roboto Slab;
+  color: white;
+}
+
+input {
+  font-family: Robot-Slab;
+}
+
+.form_input {
+  width: 60%;
+}
+
+.footer {
+  text-align: center;
+}
+
+button.register-btn {
+  padding: 0.5rem;
+  color: white;
+  font-weight: bolder;
+  background-color: #020008;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+button.register-btn:hover {
+  color: #5fdce1;
+}

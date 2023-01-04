@@ -1,0 +1,73 @@
+.card-container {
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in;
+  margin-top: 100px;
+  margin-left: 55px;
+  background-color: #020008;
+}
+
+.card-container:hover {
+  transform: scale(1.015);
+  box-shadow: 0px 0px 15px -5px;
+}
+
+.image-container {
+  overflow: hidden;
+  height: 200px;
+}
+
+.image-container img {
+  height: auto;
+
+  max-width: 100%;
+  margin-left: -18px;
+}
+
+.card-content {
+  margin: 1rem;
+  margin-top: 0.5rem;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+card-title {
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto Slab;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: white;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  margin-left: 110px;
+}
+
+button:hover {
+  background-color: #5fdce1;
+}
+
+.card-title h3 {
+  color: #5fdce1;
+  text-align: center;
+  font-family: Roboto Slab;
+}
+
+.card-text p {
+  margin-top: 15px;
+  text-align: center;
+}

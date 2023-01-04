@@ -1,0 +1,55 @@
+body {
+  background-color: #060117;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  color: white;
+  font-family: Roboto Slab;
+}
+
+img.img-center + p {
+  padding-left: 190px;
+  padding-right: 190px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.grid-display,
+.project-vision,
+.problem-statement,
+.objectives {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.project-vision,
+.problem-statement,
+.objectives {
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.problem-img {
+  width: 500px;
+  height: 350px;
+}
+
+.project-vision h3,
+.problem-statement h3,
+.objectives h3 {
+  padding-bottom: 40px;
+}
+
+img.vision-img,
+img.objectives-img {
+  height: 350px;
+  padding-left: 60px;
+}
