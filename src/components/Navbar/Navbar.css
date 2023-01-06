@@ -4,7 +4,7 @@
 
 .header {
   background-color: #020008;
-  position: sticky;
+  position: sticky !important;
   top: 0;
   top: 0;
   left: 0;
@@ -12,6 +12,7 @@
   height: 80px;
   display: flex;
   align-items: center;
+  z-index: 2; /*add so animations dont come on top of navbar*/
 }
 
 .header * {
