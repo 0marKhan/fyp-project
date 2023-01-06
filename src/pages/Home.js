@@ -9,8 +9,14 @@ import vision from "../images/project-vision.jpg";
 import problem from "../images/problem-statement.jpg";
 import objective from "../images/objectives.jpeg";
 import Footer from "../components/Footer";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const ManufacturerData = {
     title: "Sign Up As Manufacturer",
     text: "Add Products you have manufactured to the supply chain",
@@ -61,7 +67,7 @@ const Home = () => {
           link={RetailerData.link}
         />
       </div>
-      <div className="project-vision">
+      <div data-aos="fade-up" className="project-vision">
         <p>
           <h3>Project Vision</h3>
           Pharmaceutical products and vaccines are very important for the
@@ -75,7 +81,7 @@ const Home = () => {
         </p>
         <img className="vision-img" src={vision} alt="placeholder" />
       </div>
-      <div className="problem-statement">
+      <div data-aos="fade-up" className="problem-statement">
         <img className="problem-img" src={problem} alt="placeholder" />
         <p>
           <h3>Problem Statement</h3>
@@ -87,7 +93,7 @@ const Home = () => {
           cater this issue.
         </p>
       </div>
-      <div className="objectives">
+      <div data-aos="fade-up" className="objectives">
         <p>
           <h3>Objectives</h3>
           <ul>
