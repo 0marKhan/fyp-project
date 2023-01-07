@@ -83,7 +83,7 @@ const Home = () => {
       </div>
       <div data-aos="fade-up" className="problem-statement">
         <img className="problem-img" src={problem} alt="placeholder" />
-        <p>
+        <p className="st">
           <h3>Problem Statement</h3>
           Supply chain is the most crucial part in any business organizations.
           Any hole in the supply chain will affect the whole chain in the supply

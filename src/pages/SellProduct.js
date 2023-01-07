@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 import React from "react";
 import { useState, useEffect } from "react";
 
-const ProductStatus = () => {
+const SellProduct = () => {
   const [pc, setPc] = useState("");
   const [address, setAddress] = useState("");
   const [isEffect, setEffect] = useState(0);
@@ -10,7 +10,7 @@ const ProductStatus = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="product-heading">Product Status</h1>
+      <h1 className="product-heading">Sell Product</h1>
       <div className="form">
         <div className="form-body">
           <div className="productid">
@@ -29,7 +29,7 @@ const ProductStatus = () => {
         </div>
         <div class="footer">
           <button type="submit" class="register-btn">
-            Search Product
+            Sell
           </button>
         </div>
       </div>
@@ -37,4 +37,4 @@ const ProductStatus = () => {
   );
 };
 
-export default ProductStatus;
+export default SellProduct;

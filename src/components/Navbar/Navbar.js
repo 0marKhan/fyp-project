@@ -21,8 +21,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="link-class" to="/product-status">
-              Product Status
+            <Link className="link-class" to="/pack-product">
+              Pack Product
+            </Link>
+          </li>
+          <li>
+            <Link className="link-class" to="/sell-product">
+              Sell Product
             </Link>
           </li>
           <li>
@@ -31,8 +36,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="link-class" to="/recieve-report">
-              Recieve Report
+            <Link className="link-class" to="/receive-product">
+              Receive Product
+            </Link>
+          </li>
+          <li>
+            <Link className="link-class" to="/product-status">
+              Product Status
             </Link>
           </li>
           <li>

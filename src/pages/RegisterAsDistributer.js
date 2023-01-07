@@ -10,7 +10,7 @@ const RegisterAsDistributer = () => {
         <div className="form-body">
           <div className="username">
             <label className="form__label" for="DistributerName">
-              Manufacturer Name{" "}
+              Distributer Name{" "}
             </label>
             <input
               className="form__input"

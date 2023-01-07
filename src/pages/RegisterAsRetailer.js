@@ -10,7 +10,7 @@ const RegisterAsRetailer = () => {
         <div className="form-body">
           <div className="username">
             <label className="form__label" for="RetailerName">
-              Manufacturer Name{" "}
+              Retailer Name{" "}
             </label>
             <input
               className="form__input"

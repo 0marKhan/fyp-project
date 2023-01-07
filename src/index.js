@@ -14,6 +14,10 @@ import Home from "./pages/Home";
 import RegisterAsManufacturer from "./pages/RegisterAsManufacturer";
 import RegisterAsDistributer from "./pages/RegisterAsDistributer";
 import RegisterAsRetailer from "./pages/RegisterAsRetailer";
+import PackProduct from "./pages/PackProduct";
+import SellProduct from "./pages/SellProduct";
+import ReceiveProduct from "./pages/ReceiveProduct";
+
 <style>
   {" "}
   @import
@@ -28,6 +32,18 @@ const router = createBrowserRouter([
   {
     path: "add-product",
     element: <AddProduct />,
+  },
+  {
+    path: "pack-product",
+    element: <PackProduct />,
+  },
+  {
+    path: "sell-product",
+    element: <SellProduct />,
+  },
+  {
+    path: "receive-product",
+    element: <ReceiveProduct />,
   },
   {
     path: "product-status",
