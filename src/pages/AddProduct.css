@@ -1,3 +1,27 @@
 body {
   background-image: none;
 }
+
+h1.product-heading {
+  text-align: center;
+  font-family: Roboto Slab;
+  padding-top: 50px;
+  color: white;
+}
+
+button.register-btn {
+  padding: 0.5rem;
+  color: white;
+  font-weight: bolder;
+  background-color: #020008;
+  border: none;
+  transition: 0.2s;
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  margin-left: 20px;
+}
+
+button.register-btn:hover {
+  color: #5fdce1;
+  background-color: #020008;
+}
